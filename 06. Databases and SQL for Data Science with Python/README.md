@@ -100,6 +100,9 @@ E.g. to retrieve the list of countries that received gold medals:
 E.g. To retrieve the first 10 rows in a table:
 
 	SELECT * from tablename LIMIT 10
+
+ 	SELECT * from MEDALS
+  		WHERE YEAR = 2018 LIMIT 5 
 	
 ## `INSERT` Statements
 'INSERT` is ised to insert 1 or more rows into a table. The syntax is as follow:
